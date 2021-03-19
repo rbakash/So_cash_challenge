@@ -1,4 +1,4 @@
-# So_cash_challenge
+# So cash challenge
 The festival season is here and you realise it's hard to play all those complicated card games when you're drunk.
 You decide to create a simple luck-based game for people to play when they have limited motor and sensory control.  
 
