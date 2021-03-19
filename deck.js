@@ -209,18 +209,19 @@ function startTheGame() {
 
     // Add better user message
     if (winingUser) {
-        document.getElementById('userWhoWon').innerHTML = winingUser.userName + ' won the game since he has';
+        document.getElementById('userWhoWon').innerHTML = '!!!!! Huh, '+winingUser.userName + ' won the game since he has';
+        document.getElementById('userWhoWon').className = 'winner';
         if (winingUser.doesTripletExist) {
-            document.getElementById('userWhoWon').innerHTML += ' triplets.';
+            document.getElementById('userWhoWon').innerHTML += ' triplets !!!!!';
         }
         else if (winingUser.doesSequenceExists) {
-            document.getElementById('userWhoWon').innerHTML += ' sequence.';
+            document.getElementById('userWhoWon').innerHTML += ' sequence !!!!!';
         }
         else if (winingUser.doesPairExists) {
-            document.getElementById('userWhoWon').innerHTML += ' a pair.';
+            document.getElementById('userWhoWon').innerHTML += ' a pair !!!!!';
         }
         else {
-            document.getElementById('userWhoWon').innerHTML += ' highest number.';
+            document.getElementById('userWhoWon').innerHTML += ' highest number !!!!!';
         }
     }
 }
