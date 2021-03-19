@@ -1,7 +1,7 @@
 # So_cash challenge
 The festival season is here and you realise it's hard to play all those complicated card games when you're drunk. You decide to create a simple luck-based game for people to play when they have limited motor and sensory control.
 
-#Basic Rules:
+# Basic Rules:
 - Use a standard deck of cards (no Joker).
 - Each player is dealt only three cards.
 - 'A' is considered to have a number value of 1. 
@@ -14,12 +14,12 @@ The festival season is here and you realise it's hard to play all those complica
 - Only the newly drawn cards are compared to decide a tie. The top card wins a tie. 
 - For now the suit (spades/hearts etc...), does not matter.  
 
-#TODO:
+# TODO:
 1. Simulate a game between 4 players.
 2. Randomly deal them cards from a deck. 
 3. Determine the winner.  
 
-#What we're interested to see:
+# What we're interested to see:
 1. Put your project in a git repo. 
 2. Write code that's simple and easy to understand.
 3. We might change some of this, so if you have tests, it will be easier to do so. 
